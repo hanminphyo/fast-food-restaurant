@@ -5,14 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-#hero {
-  width: 100%;
-  height: 500px;
-  background-image: url(images/hero-bg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 #hero i {
   font-size: 26px;
 }
@@ -23,7 +15,7 @@
   font-style: normal;
 }
 .nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #0d0e10;
   position: fixed;
   top: 0;
   width: 100%;
@@ -41,90 +33,11 @@
   background-color: #fff;
   transition: 1s;
 }
-#order {
-  width: 100%;
-  height: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: start;
-  margin-top: 50px;
-  padding-top: 30px;
-}
-.left-item {
-  width: 500px;
-  height: 200px;
-  margin-left: 50px;
-  padding: 20px;
-  background-color: #222831;
-  border-radius: 30px;
-}
-.left-item h2 {
-  color: #fff;
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-.left-item img {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  float: left;
-  margin-right: 15px;
-  border: 5px solid orange;
-}
-.left-item a {
-  text-decoration: none;
-  background-color: orange;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 25px;
-}
-.right-item {
-  width: 500px;
-  height: 200px;
-  background-color: #222831;
-  border-radius: 30px;
-  margin-left: 50px;
-  padding: 20px;
-}
-.right-item h2 {
-  color: #fff;
-  padding-bottom: 10px;
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-.right-item img {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  float: left;
-  margin-right: 15px;
-  border: 5px solid orange;
-}
-.right-item a {
-  text-decoration: none;
-  background-color: orange;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 25px;
-}
-span {
-  display: block;
-  color: #fff;
-  padding-bottom: 20px;
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
 #menu {
   width: 100%;
   height: auto;
   margin: 50px;
+  padding-top: 30px;
 }
 .menu-button a {
   text-decoration: none;
@@ -231,6 +144,7 @@ span {
   height: 700px;
   background-color: #222831;
   color: #fff;
+  padding-top: 80px;
 }
 .about-layout {
   display: flex;
