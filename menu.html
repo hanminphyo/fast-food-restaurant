@@ -11,21 +11,21 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styling.css" />
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
   </head>
   <body>
     <!-- hero-section-start  -->
-    <div id="hero">
-      <nav class="navbar navbar-expand-lg nav">
+    <div id="hero mb-5 p-5">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand text-white brand" href="index.html">Fast Feast</a>
+          <a class="navbar-brand text-white" href="index.html">Fast Feast</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,7 +40,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link px-3" aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link px-3" aria-current="page" href="index.html"
+                  >HOME</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link px-3" href="menu.html">MENU</a>
@@ -56,7 +58,7 @@
               <i class="bi bi-person-fill text-light mx-3 py-2"></i>
               <i class="bi bi-cart-fill text-light mx-3 py-2"></i>
               <i class="bi bi-search text-light mx-3 py-2"></i>
-              <button class="btn btn-warning" type="submit">
+              <button class="btn btn-warning m-0" type="submit">
                 Online Order
               </button>
             </form>
@@ -64,6 +66,7 @@
         </div>
       </nav>
     </div>
+
     <!-- hero-section-end  -->
 
     <!-- Menu-section-start  -->
@@ -71,94 +74,135 @@
       <div class="menu-title">
         <h2>Our Menu</h2>
       </div>
-      <div class="menu-button">
-        <ul>
-          <a href="#"><li>All</li></a>
-          <a href="#"><li>Burger</li></a>
-          <a href="#"><li>Pizza</li></a>
-          <a href="#"><li>Pasta</li></a>
-          <a href="#"><li>Fries</li></a>
-        </ul>
+      <div class="menu-button text-center py-3">
+        <a
+          ><button type="button" class="btn btn-outline-secondary mx-3">
+            Pizza
+          </button></a
+        >
+        <a
+          ><button type="button" class="btn btn-outline-secondary mx-3">
+            Burger
+          </button></a
+        >
+        <a
+          ><button type="button" class="btn btn-outline-secondary mx-3">
+            Pasta
+          </button></a
+        >
+        <a
+          ><button type="button" class="btn btn-outline-secondary mx-3">
+            Fries
+          </button></a
+        >
       </div>
       <div class="menu-items">
-        <div class="container text-center">
+        <div class="container">
           <div class="row">
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f1.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f1.png"
+                  class="card-img-top mx-auto mt-2"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Pizza</h5>
-                  <p class="card-text">
-                    Indulge in the simplicity of our Classic Margherita Pizza.
+                  <h5 class="card-title text-start text-white">
+                    Delicious Pizza
+                  </h5>
+                  <p class="card-text text-white mb-4">
+                    "Absolutely loved the pizza here! The crust was perfectly
+                    crispy, and the cheese melted just right. The toppings were
+                    fresh and generously spread. Tried the Margherita and the
+                    Pepperoni, both were fantastic."
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f2.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f2.png"
+                  class="card-img-top mx-auto mt-2"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Burger</h5>
-                  <p class="card-text">
-                    Sink your teeth into our BBQ Bacon Burger, where smoky BBQ
-                    sauce meets crispy bacon,
+                  <h5 class="card-title text-start text-white mb-2">
+                    Delicious Burger
+                  </h5>
+                  <p class="card-text text-white mb-1">
+                    "The burgers at this place are amazing! Juicy, flavorful
+                    patties with just the right amount of seasoning. The buns
+                    are soft and fresh, and the toppings are crisp and
+                    delicious. I had the classic cheeseburger, and it was one of
+                    the best I've ever had. Highly recommend!"
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f4.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f4.png"
+                  class="card-img-top mx-auto mt-4"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Pasta</h5>
-                  <p class="card-text">
-                    Enjoy the rich and hearty taste of our Spaghetti Bolognese.
-                    Al dente spaghetti noodles generously
+                  <h5 class="card-title text-start text-white mb-3">Pasta</h5>
+                  <p class="card-text text-white mb-3">
+                    "The pasta here is incredible! I tried the Alfredo and the
+                    Bolognese, both were superb. The sauces were rich and
+                    flavorful, and the pasta was cooked to perfection. The
+                    portion sizes are generous, and the garlic bread on the side
+                    was a nice touch. Will definitely be ordering again!"
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f5.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f5.png"
+                  class="card-img-top mx-auto py-4"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Fries</h5>
-                  <p class="card-text">
-                    Take your fry game to the next level with our Loaded Cheese
-                    Fries.
+                  <h5 class="card-title text-start text-white">Fries</h5>
+                  <p class="card-text text-white">
+                    "The fries are a must-try! Golden and crispy on the outside,
+                    soft and fluffy on the inside. They are perfectly seasoned
+                    and come in a generous portion. Ideal as a side with any
+                    meal or just on their own for a quick snack. Simply
+                    addictive!"
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -173,51 +217,65 @@
 
     <!-- contact-us-footer-section-start  -->
     <div id="contact">
-      <div class="container text-center p-5">
-        <div class="row">
-          <div class="col">
-            <div class="contact-us-title">
-              <h2>Contact Us</h2>
-            </div>
-            <i class="fa-solid fa-location-dot facebook"></i>
-            <p>location</p>
-            <i class="fa-solid fa-phone phone"></i>
-            <p>Call +9509123456789</p>
-            <i class="fa-solid fa-envelope envelope"></i>
-            <p>example@gmail.com</p>
-          </div>
-          <div class="col">
-            <div class="contact-us-title">
-              <h2>We are Foodies</h2>
-            </div>
-            <div class="contact-us-text">
-              <p>
-                Necessary, making this the first true generator on the Internet.
-                It uses a dictionary of over 200 Latin words, combined with
-              </p>
-              <div class="contact-us-icons">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-pinterest"></i>
+      <div class="container-fluid bg-dark text-white mt-3">
+        <div class="row justify-content-around">
+          <div class="col-4 row-row-sm-3">
+            <div class="col p-2">
+              <div class="contact-left">
+                <div class="contact-us-title">
+                  <h2>Contact Us</h2>
+                </div>
+                <i class="bi bi-geo-alt-fill d-block pb-2"
+                  ><span class="ms-3">location</span></i
+                >
+                <i class="bi bi-telephone-fill d-block pb-2">
+                  <span class="ms-3">+9509123456789</span></i
+                >
+                <i class="bi bi-envelope-fill d-block pb-2"
+                  ><span class="ms-3">example@gmail.com</span></i
+                >
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="open-hours">
-              <h2>Opening Hours</h2>
-              <p>Every Day</p>
-              <p>10.00AM-10.00PM</p>
+          <div class="col-4">
+            <div class="col p-2">
+              <div class="contact-us-title">
+                <h2>We are Foodies</h2>
+              </div>
+              <div class="contact-us-text">
+                <p>
+                  Necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with
+                </p>
+                <div class="contact-us-icons">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-pinterest"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="col p-2">
+              <div class="open-hours">
+                <h2>Opening Hours</h2>
+                <p>Every Day</p>
+                <p>10:00AM-10:00PM</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer text-center">
-        <p>&copy;2024 All Rights Reserved By Free Html Templates</p>
-      </div>
     </div>
     <!-- contact-us-footer-section-end  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

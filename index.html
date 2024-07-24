@@ -22,12 +22,10 @@
   </head>
   <body>
     <!-- hero-section-start  -->
-    <div id="hero">
-      <nav class="navbar navbar-expand-lg nav">
+    <div id="hero mb-5 p-5">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand text-white brand" href="index.html"
-            >Fast Feast</a
-          >
+          <a class="navbar-brand text-white" href="index.html">Fast Feast</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -60,7 +58,7 @@
               <i class="bi bi-person-fill text-light mx-3 py-2"></i>
               <i class="bi bi-cart-fill text-light mx-3 py-2"></i>
               <i class="bi bi-search text-light mx-3 py-2"></i>
-              <button class="btn btn-warning" type="submit">
+              <button class="btn btn-warning m-0" type="submit">
                 Online Order
               </button>
             </form>
@@ -68,118 +66,179 @@
         </div>
       </nav>
     </div>
+
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide pb-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/hero-bg.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h5>Fast Feast</h5>
+            <p>"Get a burger, fries, and a drink for just $5.99!"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero-bg.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h5>Fast Feast</h5>
+            <p>"Get a burger, fries, and a drink for just $5.99!"</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/hero-bg.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h5>Fast Feast</h5>
+            <p>"Get a burger, fries, and a drink for just $5.99!"</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- hero-section-end  -->
 
     <!-- order-section-start  -->
     <div id="order">
-      <div class="left-item">
-        <img src="images/o1.jpg" alt="" />
-        <h2>Tasty Thursdays</h2>
-        <span>20% off</span>
-        <a href="#">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
-      </div>
-      <div class="right-item">
-        <img src="images/o2.jpg" alt="" />
-        <h2>Pizza Days</h2>
-        <span>20% off</span>
-        <a href="#">Order Now<i class="fa-solid fa-cart-shopping"></i></a>
+      <div class="container-fluid">
+        <div class="row mx-3">
+          <div class="col bg-dark text-white rounded me-3">
+            <div class="left-item my-3 col-col-sm-6">
+              <img src="images/o1.jpg" alt="" />
+              <h2>Tasty Thursday</h2>
+              <p>20% Off</p>
+              <a href="#"
+                >Order Now<i class="fa-solid fa-cart-shopping p-3"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col bg-dark text-white rounded">
+            <div class="right-item my-3 col-col-sm-6">
+              <img src="images/o2.jpg" alt="" />
+              <h2>Pizza Day</h2>
+              <p>15% Off</p>
+              <a href="#"
+                >Order Now <i class="fa-solid fa-cart-shopping p-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- order-section-end  -->
 
     <!-- Menu-section-start  -->
     <div id="menu">
-      <div class="menu-title">
+      <div class="menu-title my-4">
         <h2>Our Menu</h2>
       </div>
-      <div class="menu-button">
-        <ul>
-          <a href="#"><li>All</li></a>
-          <a href="#"><li>Burger</li></a>
-          <a href="#"><li>Pizza</li></a>
-          <a href="#"><li>Pasta</li></a>
-          <a href="#"><li>Fries</li></a>
-        </ul>
-      </div>
       <div class="menu-items">
-        <div class="container text-center">
+        <div class="container">
           <div class="row">
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f1.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f1.png"
+                  class="card-img-top mx-auto mt-2"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Pizza</h5>
-                  <p class="card-text">
-                    Indulge in the simplicity of our Classic Margherita Pizza.
+                  <h5 class="card-title text-start text-white">
+                    Delicious Pizza
+                  </h5>
+                  <p class="card-text text-white mb-4">
+                    "Absolutely loved the pizza here! The crust was perfectly
+                    crispy, and the cheese melted just right. The toppings were
+                    fresh and generously spread. Tried the Margherita and the
+                    Pepperoni, both were fantastic."
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f2.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f2.png"
+                  class="card-img-top mx-auto mt-2"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Burger</h5>
-                  <p class="card-text">
-                    Sink your teeth into our BBQ Bacon Burger, where smoky BBQ
-                    sauce meets crispy bacon,
+                  <h5 class="card-title text-start text-white mb-2">
+                    Delicious Burger
+                  </h5>
+                  <p class="card-text text-white mb-3">
+                    "The burgers at this place are amazing! Juicy, flavorful
+                    patties with just the right amount of seasoning. The buns
+                    are soft and fresh, and the toppings are crisp and
+                    delicious. I had the classic cheeseburger, and it was one of
+                    the best I've ever had. Highly recommend!"
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f4.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f4.png"
+                  class="card-img-top mx-auto mt-4"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Pasta</h5>
-                  <p class="card-text">
-                    Enjoy the rich and hearty taste of our Spaghetti Bolognese.
-                    Al dente spaghetti noodles generously
+                  <h5 class="card-title text-start text-white mb-3">Pasta</h5>
+                  <p class="card-text text-white mb-4">
+                    "The pasta here is incredible! I tried the Alfredo and the
+                    Bolognese, both were superb. The sauces were rich and
+                    flavorful, and the pasta was cooked to perfection. The
+                    portion sizes are generous, and the garlic bread on the side
+                    was a nice touch. Will definitely be ordering again!"
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card" style="width: 18rem">
-                <div class="card-image">
-                  <img src="images/f5.png" class="card-img-top" alt="..." />
-                </div>
+            <div class="row my-2 me-2 col-md-3">
+              <div class="card bg-dark text-white">
+                <img
+                  src="images/f5.png"
+                  class="card-img-top mx-auto py-4"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h5 class="card-title">Delicious Fries</h5>
-                  <p class="card-text">
-                    Take your fry game to the next level with our Loaded Cheese
-                    Fries.
+                  <h5 class="card-title text-start text-white">Fries</h5>
+                  <p class="card-text text-white">
+                    "The fries are a must-try! Golden and crispy on the outside,
+                    soft and fluffy on the inside. They are perfectly seasoned
+                    and come in a generous portion. Ideal as a side with any
+                    meal or just on their own for a quick snack. Simply
+                    addictive!"
                   </p>
-                  <div class="price-cart">
-                    <price>$12</price>
-                    <a href="#" class="btn btn-warning"
-                      ><i class="fa-solid fa-cart-shopping"></i
-                    ></a>
-                  </div>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#">
+                    <i
+                      class="cart fa-solid fa-cart-shopping text-white px-5"
+                    ></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -194,19 +253,23 @@
 
     <!-- About-section-start  -->
     <div class="about">
-      <div class="about-layout">
-        <div class="about-layout-image">
-          <img src="images/about-img.png" />
-        </div>
-        <div class="about-layout-text">
-          <h1>We are fast feast</h1>
-          <p>
-            Welcome to Fast Feast! At [Restaurant Name], we believe that fast
-            food doesn’t have to mean compromising on quality, flavor, or
-            nutrition. Founded with a passion for creating delicious meals that
-            bring joy and convenience to your everyday life, we strive to offer
-            a diverse menu that caters to all taste buds.
-          </p>
+      <div class="container-fluid text-start">
+        <div class="row justify-content-between bg-dark text-white">
+          <div class="col-6 py-3">
+            <img src="images/about-img.png " />
+          </div>
+          <div class="col">
+            <div class="about-layout-text mt-5 py-5">
+              <h1>We are fast feast</h1>
+              <p>
+                Welcome to Fast Feast! At Fast Feast, we believe that fast food
+                doesn’t have to mean compromising on quality, flavor, or
+                nutrition. Founded with a passion for creating delicious meals
+                that bring joy and convenience to your everyday life, we strive
+                to offer a diverse menu that caters to all taste buds.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -217,9 +280,9 @@
       <div class="booking-title mx-3">
         <h1>Book Table</h1>
       </div>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
+      <div class="container text-start">
+        <div class="row justify-content-evenly">
+          <div class="col col-col-sm-6 w-100 px-2">
             <div class="form mx-2">
               <input
                 type="text"
@@ -258,10 +321,11 @@
               <button class="submit" type="submit">BOOK NOW</button>
             </div>
           </div>
-          <div class="col">
+          <div class="col-6">
             <div class="map">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25266.850836829926!2d96.07014505939345!3d19.71518490618272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1721528048187!5m2!1sen!2smm"
+                class="d-md-block d-sm-none"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
@@ -275,51 +339,65 @@
 
     <!-- contact-us-footer-section-start  -->
     <div id="contact">
-      <div class="container text-center p-5">
-        <div class="row">
-          <div class="col">
-            <div class="contact-us-title">
-              <h2>Contact Us</h2>
-            </div>
-            <i class="fa-solid fa-location-dot facebook"></i>
-            <p>location</p>
-            <i class="fa-solid fa-phone phone"></i>
-            <p>Call +9509123456789</p>
-            <i class="fa-solid fa-envelope envelope"></i>
-            <p>example@gmail.com</p>
-          </div>
-          <div class="col">
-            <div class="contact-us-title">
-              <h2>We are Foodies</h2>
-            </div>
-            <div class="contact-us-text">
-              <p>
-                Necessary, making this the first true generator on the Internet.
-                It uses a dictionary of over 200 Latin words, combined with
-              </p>
-              <div class="contact-us-icons">
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-linkedin"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-pinterest"></i>
+      <div class="container-fluid bg-dark text-white mt-3">
+        <div class="row justify-content-around">
+          <div class="col-4 row-row-sm-3">
+            <div class="col p-2">
+              <div class="contact-left">
+                <div class="contact-us-title">
+                  <h2>Contact Us</h2>
+                </div>
+                <i class="bi bi-geo-alt-fill d-block pb-2"
+                  ><span class="ms-3">location</span></i
+                >
+                <i class="bi bi-telephone-fill d-block pb-2">
+                  <span class="ms-3">+9509123456789</span></i
+                >
+                <i class="bi bi-envelope-fill d-block pb-2"
+                  ><span class="ms-3">example@gmail.com</span></i
+                >
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="open-hours">
-              <h2>Opening Hours</h2>
-              <p>Every Day</p>
-              <p>10.00AM-10.00PM</p>
+          <div class="col-4">
+            <div class="col p-2">
+              <div class="contact-us-title">
+                <h2>We are Foodies</h2>
+              </div>
+              <div class="contact-us-text">
+                <p>
+                  Necessary, making this the first true generator on the
+                  Internet. It uses a dictionary of over 200 Latin words,
+                  combined with
+                </p>
+                <div class="contact-us-icons">
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-instagram"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-twitter"></i>
+                  <i class="bi bi-pinterest"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="col p-2">
+              <div class="open-hours">
+                <h2>Opening Hours</h2>
+                <p>Every Day</p>
+                <p>10:00AM-10:00PM</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer text-center">
-        <p>&copy;2024 All Rights Reserved By Free Html Templates</p>
-      </div>
     </div>
     <!-- contact-us-footer-section-end  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
