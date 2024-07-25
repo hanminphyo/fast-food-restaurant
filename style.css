@@ -166,10 +166,6 @@
   font-weight: 600;
   font-style: normal;
 }
-#booking .form-control,
-.form-select {
-  margin: 20px;
-}
 .submit {
   border: none;
   border-radius: 20px;
@@ -181,9 +177,7 @@
   background-color: darkorange;
 }
 .map iframe {
-  width: 600px;
-  height: 350px;
-  margin-top: 20px;
+  height: 320px;
 }
 @media (max-width: 768px) {
   .map {
