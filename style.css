@@ -50,6 +50,7 @@
   font-weight: 600;
   font-style: normal;
   padding-left: 10px;
+  font-size: 40px;
 }
 .right-item h2 {
   font-family: "Dancing Script";
@@ -206,6 +207,14 @@
     justify-content: center;
     align-items: baseline;
     margin-top: 20px;
+  }
+  .menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 300px;
   }
 }
 .contact-us-icons {
