@@ -5,10 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h5 {
+  font-family: "Dancing Script";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+p {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 #hero i {
   font-size: 26px;
 }
 .navbar-brand {
+  font-size: 25px;
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -33,197 +49,31 @@
   background-color: #fff;
   transition: 1s;
 }
-.carousel-caption h5 {
-  font-family: "Dancing Script";
-  font-weight: 600;
-  font-style: normal;
-  font-size: 40px;
-}
-.carousel-caption p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.left-item h2 {
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  padding-left: 10px;
-  font-size: 40px;
-}
-.right-item h2 {
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  padding-left: 10px;
-  font-size: 40px;
-}
-.left-item p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px;
-}
-.right-item p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px;
-}
-.left-item img {
+#order img {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  float: left;
   border: 3px solid orange;
 }
-.left-item a {
-  padding: 10px;
-  text-decoration: none;
-  color: #fff;
-  background-color: orange;
-  border-radius: 10px;
+#order .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.right-item img {
+#menu img {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  float: left;
-  border: 3px solid orange;
-  margin: 10px;
 }
-.right-item a {
-  padding: 10px;
-  text-decoration: none;
-  color: #fff;
-  background-color: orange;
-  border-radius: 10px;
+#about img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
 }
-.cart {
-  padding: 10px 30px;
-  text-decoration: none;
-  color: #fff;
-  background-color: orange;
-  border-radius: 10px;
+.social-icons {
+  font-size: 30px;
 }
-#menu {
-  margin-top: 5em;
-}
-.menu-title {
-  text-align: center;
-}
-.menu-title h2 {
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-.menu-items img {
-  width: 50%;
-}
-.menu-items .card-title h5 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.card-text p {
-  text-align: justify;
-  letter-spacing: 0.5;
-}
-.view-more {
-  text-align: center;
-  margin: 30px;
-}
-.view-more a {
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: darkorange;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.about {
-  padding-top: 50px;
-}
-.about img {
-  width: 50%;
-}
-.about-layout-text h1 {
-  font-family: "Dancing Script";
-  font-weight: 600;
-  font-style: normal;
-}
-.booking-title {
-  text-align: start;
-  padding: 20px;
-}
-.booking-title h1 {
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-.submit {
-  border: none;
-  border-radius: 20px;
-  padding: 10px 30px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #fff;
-  background-color: darkorange;
-}
-.map iframe {
-  height: 320px;
-}
-@media (max-width: 768px) {
-  .map {
-    display: none;
-  }
-  .contact-us-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    margin-top: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .contact-us-text {
-    font-size: 10px;
-    text-align: justify;
-    letter-spacing: 0.3px;
-  }
-  .contact-left i {
-    font-size: 15px;
-  }
-  .contact-us-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: baseline;
-    margin-top: 20px;
-  }
-  .menu-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-left: 100px;
-    width: 300px;
-  }
-}
-.contact-us-icons {
-  padding: 5px;
-}
-.contact-us-icons i {
-  padding: 15px;
-  font-size: 25px;
-}
-.contact-us-icons i:hover {
+.social-icons i:hover {
   color: orange;
 }

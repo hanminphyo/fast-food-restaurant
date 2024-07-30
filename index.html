@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- hero-section-start  -->
-    <div id="hero mb-5 p-5">
+    <section id="hero mb-5 p-5">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand text-white" href="index.html">Fast Feast</a>
@@ -64,7 +64,7 @@
           </div>
         </div>
       </nav>
-    </div>
+    </section>
 
     <div
       id="carouselExampleAutoplaying"
@@ -98,143 +98,153 @@
     <!-- hero-section-end  -->
 
     <!-- order-section-start  -->
-    <div id="order">
-      <div class="container-fluid">
-        <div class="row mx-3">
-          <div class="col bg-dark text-white rounded me-3">
-            <div class="left-item my-3 col-col-sm-6">
-              <img src="images/o1.jpg" alt="" />
-              <h2>Tasty Thursday</h2>
-              <p>20% Off</p>
-              <a href="#"
-                >Order Now<i class="fa-solid fa-cart-shopping p-3"></i
-              ></a>
+    <section id="order">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-3">
+            <div class="card bg-dark text-white">
+              <img src="images/o1.jpg" class="m-3 float-start" alt="..." />
+              <div class="card-body mx-auto">
+                <h2 class="card-title">Tasty Thursday</h2>
+                <p class="card-text fs-2">20%</p>
+                <a href="#">
+                  <button type="button" class="btn btn-warning mx-auto">
+                    Order Now
+                    <i class="fa-solid fa-cart-shopping"></i></button
+                ></a>
+              </div>
             </div>
           </div>
-          <div class="col bg-dark text-white rounded">
-            <div class="right-item my-3 col-col-sm-6">
-              <img src="images/o2.jpg" alt="" />
-              <h2>Pizza Day</h2>
-              <p>15% Off</p>
-              <a href="#"
-                >Order Now <i class="fa-solid fa-cart-shopping p-3"></i>
-              </a>
+          <div class="col-md-6 mt-3">
+            <div class="card bg-dark text-white">
+              <img src="images/o2.jpg" class="m-3 float-start" alt="..." />
+              <div class="card-body mx-auto">
+                <h2 class="card-title">Pizza Day</h2>
+                <p class="card-text fs-2">20%</p>
+                <a href="#">
+                  <button type="button" class="btn btn-warning mx-auto">
+                    Order Now
+                    <i class="fa-solid fa-cart-shopping"></i></button
+                ></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- order-section-end  -->
+    </section>
 
     <!-- Menu-section-start  -->
-    <div id="menu">
-      <div class="menu-title my-4">
-        <h2>Our Menu</h2>
-      </div>
-      <div class="menu-items">
-        <div class="container">
-          <div class="row">
-            <div class="row my-2 me-2 col-md-4">
-              <div class="card bg-dark text-white">
-                <img
-                  src="images/f1.png"
-                  class="card-img-top mx-auto mt-2"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-start text-white">
-                    Delicious Pizza
-                  </h5>
-                  <p class="card-text text-white mb-4">
-                    "Absolutely loved the pizza here! The crust was perfectly
-                    crispy, and the cheese melted just right. The toppings were
-                    fresh and generously spread. Tried the Margherita and the
-                    Pepperoni, both were fantastic."
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <a href="#">
-                    <i
+    <section id="menu">
+      <div class="container">
+        <h2 class="my-3 text-center">Our Menu</h2>
+        <div class="row">
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0BN__1hvPzzXQL7WgzLmYO0cqfRtE26Qk3A&s"
+                class="rounded mx-auto d-block mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Margherita Pizza</h3>
+                <p class="card-text text-justify text-dark">
+                  "The Margherita Pizza is a timeless classic that never fails
+                  to impress. Its simplicity is its strength, offering a
+                  delightful combination of fresh ingredients that perfectly
+                  complement each other."
+                </p>
+                <div class="container mx-auto text-center">
+                  <button type="button" class="btn btn-primary" disabled>
+                    $12
+                  </button>
+                  <a class="btn btn-warning m-2" href="#" role="button"
+                    ><i
                       class="cart fa-solid fa-cart-shopping text-white px-5"
                     ></i
                   ></a>
                 </div>
               </div>
             </div>
-            <div class="row my-2 me-2 col-md-4">
-              <div class="card bg-dark text-white">
-                <img
-                  src="images/f2.png"
-                  class="card-img-top mx-auto mt-2"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-start text-white mb-2">
-                    Delicious Burger
-                  </h5>
-                  <p class="card-text text-white mb-3">
-                    "The burgers at this place are amazing! Juicy, flavorful
-                    patties with just the right amount of seasoning. The buns
-                    are soft and fresh, and the toppings are crisp and
-                    delicious. I had the classic cheeseburger, and it was one of
-                    the best I've ever had. Highly recommend!"
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <a href="#">
-                    <i
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNLiNj3pQTR0pkvM_4_Orow55GSAJHX6nEA&s"
+                class="rounded mx-auto d-block mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">BBQ Burger</h3>
+                <p class="card-text text-justify text-dark">
+                  "I recently had the pleasure of trying the BBQ Burger at Fast
+                  Feast, and it was a delightful experience from start to
+                  finish. Here’s a breakdown of my thoughts on this
+                  mouth-watering creation."
+                </p>
+                <div class="container mx-auto text-center">
+                  <button type="button" class="btn btn-primary" disabled>
+                    $12
+                  </button>
+                  <a class="btn btn-warning m-2" href="#" role="button"
+                    ><i
                       class="cart fa-solid fa-cart-shopping text-white px-5"
                     ></i
                   ></a>
                 </div>
               </div>
             </div>
-            <div class="row my-2 me-2 col-md-4">
-              <div class="card bg-dark text-white">
-                <img
-                  src="images/f4.png"
-                  class="card-img-top mx-auto mt-4"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-start text-white mb-3">Pasta</h5>
-                  <p class="card-text text-white mb-4">
-                    "The pasta here is incredible! I tried the Alfredo and the
-                    Bolognese, both were superb. The sauces were rich and
-                    flavorful, and the pasta was cooked to perfection. The
-                    portion sizes are generous, and the garlic bread on the side
-                    was a nice touch. Will definitely be ordering again!"
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <a href="#">
-                    <i
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ryP_mECUlLg6-6XcQA3z5SXw84jrIzCsIg&s"
+                class="rounded mx-auto d-block mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Chili Cheese Fries</h3>
+                <p class="card-text text-justify text-dark">
+                  "One of the standout features of Chili Cheese Fries is the
+                  balance of flavors and textures. The spicy, meaty chili pairs
+                  perfectly with the starchy fries, while the cheese adds a
+                  luscious, comforting touch."
+                </p>
+                <div class="container mx-auto text-center">
+                  <button type="button" class="btn btn-primary" disabled>
+                    $12
+                  </button>
+                  <a class="btn btn-warning m-2" href="#" role="button"
+                    ><i
                       class="cart fa-solid fa-cart-shopping text-white px-5"
                     ></i
                   ></a>
                 </div>
               </div>
             </div>
-            <div class="row my-2 me-2 col-md-4">
-              <div class="card bg-dark text-white">
-                <img
-                  src="images/f5.png"
-                  class="card-img-top mx-auto py-4"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title text-start text-white">Fries</h5>
-                  <p class="card-text text-white">
-                    "The fries are a must-try! Golden and crispy on the outside,
-                    soft and fluffy on the inside. They are perfectly seasoned
-                    and come in a generous portion. Ideal as a side with any
-                    meal or just on their own for a quick snack. Simply
-                    addictive!"
-                  </p>
-                </div>
-                <div class="card-body text-center">
-                  <a href="#">
-                    <i
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <img
+                src="https://t3.ftcdn.net/jpg/02/60/30/16/240_F_260301654_UZvICSdHGNSPJJRjHD6fX9Oa3k3vxlYI.jpg"
+                class="rounded mx-auto d-block mt-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Spaghetti Carbonara</h3>
+                <p class="card-text text-justify text-dark">
+                  "This Spaghetti Carbonara was a delightful culinary journey to
+                  Italy. It managed to be both comforting and luxurious, a true
+                  testament to the art of Italian cooking. Whether you're a
+                  pasta lover or just someone who appreciates well-crafted
+                  dishes, this Carbonara is sure to impress. I highly recommend
+                  it and will definitely be coming back for more."
+                </p>
+                <div class="container mx-auto text-center">
+                  <button type="button" class="btn btn-primary" disabled>
+                    $12
+                  </button>
+                  <a class="btn btn-warning m-2" href="#" role="button"
+                    ><i
                       class="cart fa-solid fa-cart-shopping text-white px-5"
                     ></i
                   ></a>
@@ -243,154 +253,141 @@
             </div>
           </div>
         </div>
+        <div class="d-grid col-md-2 mx-auto mt-3">
+          <button class="btn btn-warning" type="button">
+            View More &rarr;
+          </button>
+        </div>
       </div>
-      <div class="view-more">
-        <a href="#">View More</a>
-      </div>
-    </div>
+    </section>
     <!-- Menu-section-end  -->
 
     <!-- About-section-start  -->
-    <div class="about">
-      <div class="container-fluid text-start">
-        <div class="row justify-content-between bg-dark text-white">
-          <div class="col-6 py-3">
-            <img src="images/about-img.png " />
+    <section id="about">
+      <div class="container-fluid bg-dark mt-4">
+        <div class="row align-items-center text-white">
+          <div class="col-md-6 my-5 text-center d-none d-sm-block">
+            <img
+              src="images/about-img.png"
+              class="img-thumbnail-flush bg-dark"
+              alt=""
+            />
           </div>
-          <div class="col">
-            <div class="about-layout-text mt-5 py-5">
-              <h1>We are fast feast</h1>
-              <p>
-                Welcome to Fast Feast! At Fast Feast, we believe that fast food
-                doesn’t have to mean compromising on quality, flavor, or
-                nutrition. Founded with a passion for creating delicious meals
-                that bring joy and convenience to your everyday life, we strive
-                to offer a diverse menu that caters to all taste buds.
-              </p>
-            </div>
+          <div class="col-md-6 pe-4 mt-3">
+            <h2>Fast Feast</h2>
+            <p class="text-justify mt-3">
+              Welcome to Fast Feast! At Fast Feast, we believe that fast food
+              doesn’t have to mean compromising on quality, flavor, or
+              nutrition. Founded with a passion for creating delicious meals
+              that bring joy and convenience to your everyday life, we strive to
+              offer a diverse menu that caters to all taste buds.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- About-section-end  -->
 
     <!-- booking-section-start  -->
-    <div id="booking">
-      <div class="booking-title mx-3">
-        <h1>Book Table</h1>
-      </div>
-      <div class="container text-start">
-        <div class="row justify-content-evenly">
-          <div class="col px-2">
-            <div class="form mx-2">
-              <input
-                type="text"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-                placeholder="Your Name"
-              />
-              <input
-                type="text"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-                placeholder="Phone Number"
-              />
-              <input
-                type="email"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-                placeholder="Your Email"
-              />
-              <select
-                class="form-select p-3 mb-2"
-                aria-label="Default select example"
+    <section id="booking">
+      <div class="container mt-3">
+        <h1>BOOK TABLE</h1>
+        <form class="row mt-3">
+          <div class="col-md-6">
+            <input
+              class="form-control mt-4 py-3"
+              type="text"
+              placeholder="Your Name"
+              aria-label="default input example"
+            />
+            <input
+              class="form-control mt-4 py-3"
+              type="text"
+              placeholder="Phone Number"
+              aria-label="default input example"
+            />
+            <input
+              class="form-control mt-4 py-3"
+              type="email"
+              placeholder="Your Email"
+              aria-label="default input example"
+            />
+            <select
+              class="form-select mt-4 py-3"
+              aria-label="Default select example"
+            >
+              <option selected>How many person ?</option>
+              <option value="1">2</option>
+              <option value="2">3</option>
+              <option value="3">4</option>
+            </select>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start justify-content-sm-center"
+            >
+              <a href="#"
+                ><button class="btn btn-warning mt-3" type="button">
+                  BOOK NOW
+                </button></a
               >
-                <option selected>How many person?</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="3">5</option>
-                <option value="3">6</option>
-              </select>
-              <input
-                type="date"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-              />
-              <button class="submit" type="submit">BOOK NOW</button>
             </div>
           </div>
-          <div class="col-6">
-            <div class="map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25266.850836829926!2d96.07014505939345!3d19.71518490618272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1721528048187!5m2!1sen!2smm"
-                class="d-md-block d-sm-none w-100"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+          <div class="col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1766.493909156432!2d-87.62823192656523!3d41.87399723451985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1722264989391!5m2!1sen!2smm"
+              class="pe-3 d-none d-sm-block"
+              width="600"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-        </div>
+        </form>
       </div>
-    </div>
+    </section>
     <!-- booking-section-end  -->
 
     <!-- contact-us-footer-section-start  -->
-    <div id="contact">
+    <section id="contact">
       <div class="container-fluid bg-dark text-white mt-3">
-        <div class="row justify-content-around">
-          <div class="col-4 row-row-sm-3">
-            <div class="col p-2">
-              <div class="contact-left">
-                <div class="contact-us-title">
-                  <h2>Contact Us</h2>
-                </div>
-                <i class="bi bi-geo-alt-fill d-block pb-2"
-                  ><span class="ms-3">location</span></i
-                >
-                <i class="bi bi-telephone-fill d-block pb-2">
-                  <span class="ms-3">+9509123456789</span></i
-                >
-                <i class="bi bi-envelope-fill d-block pb-2"
-                  ><span class="ms-3">example@gmail.com</span></i
-                >
-              </div>
+        <div class="row">
+          <div class="col-md-4 mt-4 ps-5 text-md-start">
+            <h3>Contact us</h3>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa-solid fa-location-dot pe-3 mt-3"></i>location
+              </li>
+              <li><i class="fa-solid fa-phone pe-3 mt-3"></i>09123456789</li>
+              <li>
+                <i class="fa-solid fa-envelope pe-3 mt-3"></i>example@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4 ps-5 text-md-start">
+            <h3>We are Foodies</h3>
+            <p>
+              Necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with
+            </p>
+            <div class="social-icons text-center mt-3">
+              <i class="fa-brands fa-facebook px-2"></i>
+              <i class="fa-brands fa-instagram px-2"></i>
+              <i class="fa-brands fa-linkedin px-2"></i>
+              <i class="fa-brands fa-x-twitter px-2"></i>
+              <i class="fa-brands fa-pinterest px-2"></i>
             </div>
           </div>
-          <div class="col-4">
-            <div class="col p-2">
-              <div class="contact-us-title">
-                <h2>We are Foodies</h2>
-              </div>
-              <div class="contact-us-text">
-                <p>
-                  Necessary, making this the first true generator on the
-                  Internet. It uses a dictionary of over 200 Latin words,
-                  combined with
-                </p>
-                <div class="contact-us-icons">
-                  <i class="bi bi-facebook"></i>
-                  <i class="bi bi-instagram"></i>
-                  <i class="bi bi-linkedin"></i>
-                  <i class="bi bi-twitter"></i>
-                  <i class="bi bi-pinterest"></i>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-4 ps-5 mt-4 text-md-start">
+            <h3>Opening Hours</h3>
+            <p>Every Day</p>
+            <p>10:00AM - 10:00PM</p>
           </div>
-          <div class="col-4">
-            <div class="col p-2">
-              <div class="open-hours">
-                <h2>Opening Hours</h2>
-                <p>Every Day</p>
-                <p>10:00AM-10:00PM</p>
-              </div>
-            </div>
+          <div class="col-md-4 mt-4 ps-5 text-md-start">
+            <p>Copyright &copy; 2024. All Rights Reserved!</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- contact-us-footer-section-end  -->
 
     <script

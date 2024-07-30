@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- hero-section-start  -->
-    <div id="hero mb-5 p-5">
+    <section id="hero mb-5 p-5">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand text-white" href="index.html">Fast Feast</a>
@@ -64,129 +64,110 @@
           </div>
         </div>
       </nav>
-    </div>
-
+    </section>
     <!-- hero-section-end  -->
 
     <!-- booking-section-start  -->
-    <div id="booking">
-      <div class="booking-title mx-3">
-        <h1>Book Table</h1>
-      </div>
-      <div class="container text-start">
-        <div class="row justify-content-evenly">
-          <div class="col px-2">
-            <div class="form mx-2">
-              <input
-                type="text"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-                placeholder="Your Name"
-              />
-              <input
-                type="text"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-                placeholder="Phone Number"
-              />
-              <input
-                type="email"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-                placeholder="Your Email"
-              />
-              <select
-                class="form-select p-3 mb-2"
-                aria-label="Default select example"
+    <section id="booking">
+      <div class="container mt-5 pt-5">
+        <h1>BOOK TABLE</h1>
+        <form class="row mt-3">
+          <div class="col-md-6">
+            <input
+              class="form-control mt-4 py-3"
+              type="text"
+              placeholder="Your Name"
+              aria-label="default input example"
+            />
+            <input
+              class="form-control mt-4 py-3"
+              type="text"
+              placeholder="Phone Number"
+              aria-label="default input example"
+            />
+            <input
+              class="form-control mt-4 py-3"
+              type="email"
+              placeholder="Your Email"
+              aria-label="default input example"
+            />
+            <select
+              class="form-select mt-4 py-3"
+              aria-label="Default select example"
+            >
+              <option selected>How many person ?</option>
+              <option value="1">2</option>
+              <option value="2">3</option>
+              <option value="3">4</option>
+            </select>
+            <div
+              class="d-grid gap-2 d-md-flex justify-content-md-start justify-content-sm-center"
+            >
+              <a href="#"
+                ><button class="btn btn-warning mt-3" type="button">
+                  BOOK NOW
+                </button></a
               >
-                <option selected>How many person?</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="3">5</option>
-                <option value="3">6</option>
-              </select>
-              <input
-                type="date"
-                class="form-control p-3 mb-2"
-                id="exampleFormControlInput1"
-              />
-              <button class="submit" type="submit">BOOK NOW</button>
             </div>
           </div>
-          <div class="col-6">
-            <div class="map">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25266.850836829926!2d96.07014505939345!3d19.71518490618272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1721528048187!5m2!1sen!2smm"
-                class="d-md-block d-sm-none w-100"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+          <div class="col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1766.493909156432!2d-87.62823192656523!3d41.87399723451985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smm!4v1722264989391!5m2!1sen!2smm"
+              class="pe-3 d-none d-sm-block"
+              width="600"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
-        </div>
+        </form>
       </div>
-    </div>
+    </section>
     <!-- booking-section-end  -->
 
     <!-- contact-us-footer-section-start  -->
-    <div id="contact">
+    <section id="contact">
       <div class="container-fluid bg-dark text-white mt-3">
-        <div class="row justify-content-around">
-          <div class="col-4 row-row-sm-3">
-            <div class="col p-2">
-              <div class="contact-left">
-                <div class="contact-us-title">
-                  <h2>Contact Us</h2>
-                </div>
-                <i class="bi bi-geo-alt-fill d-block pb-2"
-                  ><span class="ms-3">location</span></i
-                >
-                <i class="bi bi-telephone-fill d-block pb-2">
-                  <span class="ms-3">+9509123456789</span></i
-                >
-                <i class="bi bi-envelope-fill d-block pb-2"
-                  ><span class="ms-3">example@gmail.com</span></i
-                >
-              </div>
+        <div class="row">
+          <div class="col-md-4 mt-4 ps-5 text-md-start">
+            <h3>Contact us</h3>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa-solid fa-location-dot pe-3 mt-3"></i>location
+              </li>
+              <li><i class="fa-solid fa-phone pe-3 mt-3"></i>09123456789</li>
+              <li>
+                <i class="fa-solid fa-envelope pe-3 mt-3"></i>example@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-4 ps-5 text-md-start">
+            <h3>We are Foodies</h3>
+            <p>
+              Necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with
+            </p>
+            <div class="social-icons text-center mt-3">
+              <i class="fa-brands fa-facebook px-2"></i>
+              <i class="fa-brands fa-instagram px-2"></i>
+              <i class="fa-brands fa-linkedin px-2"></i>
+              <i class="fa-brands fa-x-twitter px-2"></i>
+              <i class="fa-brands fa-pinterest px-2"></i>
             </div>
           </div>
-          <div class="col-4">
-            <div class="col p-2">
-              <div class="contact-us-title">
-                <h2>We are Foodies</h2>
-              </div>
-              <div class="contact-us-text">
-                <p>
-                  Necessary, making this the first true generator on the
-                  Internet. It uses a dictionary of over 200 Latin words,
-                  combined with
-                </p>
-                <div class="contact-us-icons">
-                  <i class="bi bi-facebook"></i>
-                  <i class="bi bi-instagram"></i>
-                  <i class="bi bi-linkedin"></i>
-                  <i class="bi bi-twitter"></i>
-                  <i class="bi bi-pinterest"></i>
-                </div>
-              </div>
-            </div>
+          <div class="col-md-4 ps-5 mt-4 text-md-start">
+            <h3>Opening Hours</h3>
+            <p>Every Day</p>
+            <p>10:00AM - 10:00PM</p>
           </div>
-          <div class="col-4">
-            <div class="col p-2">
-              <div class="open-hours">
-                <h2>Opening Hours</h2>
-                <p>Every Day</p>
-                <p>10:00AM-10:00PM</p>
-              </div>
-            </div>
+          <div class="col-md-4 mt-4 ps-5 text-md-start">
+            <p>Copyright &copy; 2024. All Rights Reserved!</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- contact-us-footer-section-end  -->
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
